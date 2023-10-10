@@ -1,10 +1,13 @@
+import { Avatar, ListItem, Name } from "./FriendListItem.styled";
+import { Marker } from "./FriendListItem.styled";
+
 export const FriendListItem = ({
 	friendItem: { avatar, name, isOnline } }) => {
 	return (
-		<>
-			<span></span>
-			<img src={avatar} alt={name} width="48px" />
-			<p>{name}</p>
-		</>
+		<ListItem>
+			<Marker $mark={isOnline}></Marker>
+			<Avatar src={avatar} alt={name} />
+			<Name>{name}</Name>
+		</ListItem>
 	);
 };
