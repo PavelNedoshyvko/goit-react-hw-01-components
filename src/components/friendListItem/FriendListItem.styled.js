@@ -18,7 +18,7 @@ display: block;
 width: 20px;
 height: 20px;
 border-radius: 50%;
-background-color: ${props =>(props.$mark ? "#00ff00" : "#ff0000")
+background-color: ${props =>(props.$status ? "#00ff00" : "#ff0000")
 };
 `;
 
