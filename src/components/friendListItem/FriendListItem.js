@@ -1,5 +1,5 @@
-import { Avatar, ListItem, Name } from "./FriendListItem.styled";
-import { Marker } from "./FriendListItem.styled";
+import { Avatar, ListItem, Name, Marker } from "./FriendListItem.styled";
+
 
 export const FriendListItem = ({
 	friendItem: { avatar, name, isOnline } }) => {
