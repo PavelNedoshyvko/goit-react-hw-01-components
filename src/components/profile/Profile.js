@@ -6,7 +6,7 @@ import {
 	Statistic,
 	StatisticItem,
 	Span
-} from "./Profile.styled.js"
+} from "./Profile.styled"
 
 export const Profile = ({ user: { username, tag, location, avatar, stats: { followers, views, likes } } }) => {
 	return (
