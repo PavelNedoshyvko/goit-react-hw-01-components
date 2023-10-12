@@ -1,4 +1,4 @@
-import { Avatar, ListItem, Name, Marker } from "./FriendListItem.styled";
+import { Avatar, ListItem, Name, Marker } from './FriendListItem.styled'
 
 
 export const FriendListItem = ({

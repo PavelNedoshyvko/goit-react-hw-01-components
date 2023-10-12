@@ -1,4 +1,4 @@
-import { Section, Title, List, ListItem, Data } from "./Statistics.styled";
+import { Section, Title, List, ListItem, Data } from './Statistics.styled'
 
 export const Statistics = ({ title, stats }) => {
 	return (
